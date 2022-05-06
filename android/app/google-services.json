@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1006972259028",
+    "project_id": "mynotes-kev1",
+    "storage_bucket": "mynotes-kev1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006972259028:android:625a09788c5a9743ae8941",
+        "android_client_info": {
+          "package_name": "com.example.learningdart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006972259028-6022jknk425cmsv7bkj2131picc55ab5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8LLhL2RlQY-ervHhIfCFmmttkJ2bzseY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006972259028-6022jknk425cmsv7bkj2131picc55ab5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006972259028-3li79bkaeja835gsedrtkb0sv04l3u0q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.learningdart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
