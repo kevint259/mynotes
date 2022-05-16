@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:learningdart/services/auth/auth_exceptions.dart';
 import 'package:learningdart/services/auth/auth_provider.dart';
 import 'package:learningdart/services/auth/auth_user.dart';
