@@ -56,11 +56,13 @@ class _NotesViewState extends State<NotesView> {
         ],
       ),
       body: FutureBuilder(
+        future: _notesService.getOrCreateUser(email: userEmail),
         builder: (context, snapshot) {
           switch (snapshot.connectionState) {
             case ConnectionState.done:
               return StreamBuilder(builder: (context, snapshot) {
                 switch (snapshot.connectionState) {
+                  case ConnectionState.active:
                   case ConnectionState.waiting:
                     return const Text("Waiting for all notes...");
                   default:
@@ -72,7 +74,6 @@ class _NotesViewState extends State<NotesView> {
               return const CircularProgressIndicator();
           }
         },
-        future: _notesService.getOrCreateUser(email: userEmail),
       ),
     );
   }
